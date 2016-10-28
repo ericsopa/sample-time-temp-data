@@ -1,0 +1,40 @@
+{
+    "test": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"101"},
+                    "TimeStamep": {"S":"1477614706"},
+                    "Temp": {"N":"7"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"102"},
+                    "TimeStamep": {"S":"1477615306"},
+                    "Temp": {"N":"8"}
+                }
+            }
+        },
+	{
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"103"},
+                    "TimeStamep": {"S":"1477615906"},
+                    "Temp": {"N":"9"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"104"},
+                    "TimeStamep": {"S":"1477616506"},
+                    "Temp": {"N":"10"}
+                }
+            }
+        }
+    ]
+}
